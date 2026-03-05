@@ -1,0 +1,11 @@
+#dependencias
+node_modules/
+.env
+.env.local
+.env.development
+!.env.example
+
+#logs
+dist/
+build/
+coverage/
