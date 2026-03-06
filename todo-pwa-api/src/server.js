@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 
-app.get('/', (req, res) => res.json({ok: true, name: 'Kimberly Todo API'}));
+app.get('/', (req, res) => res.json({ok: true, name: 'Alexis'}));
 app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 
